@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <objectAnimator
+        android:propertyName="string"
+        android:duration="30"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:startOffset="100"
+        android:repeatCount="100"
+        android:repeatMode="restart"/>
+</set>

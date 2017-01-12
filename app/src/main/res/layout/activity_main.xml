@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/assssss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anima.yongfei.animationdemo.MainActivity">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical">-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_floating_material_light">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn_start_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#6600ff00"
+                android:text="开始动画"/>
+
+            <Button
+                android:id="@+id/btn_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#33ff0000"
+                android:text="fragment"/>
+
+            <Button
+                android:id="@+id/btn_notify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#33ff0000"
+                android:text="notify"/>
+
+            <Button
+                android:id="@+id/btn_view_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#33ff0000"
+                android:text="btn_activity"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn_flact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#330000ff"
+                android:text="反射"/>
+
+            <Button
+                android:id="@+id/btn_touch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#337f3088"
+                android:text="touch"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2200ff00"
+                android:text="废弃"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/aaaaaaiodiaisdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e69310"
+                android:text="5.0 new"/>
+
+            <Button
+                android:id="@+id/qwioeqioweijqiweiqew"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:background="#e15380"
+                android:text="测试"/>
+
+            <Button
+                android:id="@+id/total_snow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2200ff00"
+                android:text="全屏雪花动画"/>
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+
+    <!--首先设置ScrollView android:fillViewport="true" ，让布局在条件允许状态下填充整个屏幕 然后设置权重，不至于吧
+    整个屏幕都沾满，这时键盘弹起就可以动态随键盘动了-->
+
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:fillViewport="true">-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="55dp"/>-->
+
+    <!--</ScrollView>-->
+
+    <!--</LinearLayout>-->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

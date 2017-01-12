@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#33ff0000"
+            android:maxLines="3"
+            android:minHeight="10dp"
+            android:scrollbars="none"/>
+
+
+    </LinearLayout>
+
+    <!--<com.anima.yongfei.animationdemo.widget.FlashTextView-->
+        <!--android:id="@+id/text2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="测试爱仕达"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="30sp"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cardview_dark_background"/>
+
+    <!--<com.anima.yongfei.animationdemo.widget.ShaderTextView-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:textSize="50sp"-->
+        <!--android:text="哈哈哈"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:textSize="30sp"
+        android:id="@+id/input_text_test"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
